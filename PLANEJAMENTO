@@ -1,0 +1,100 @@
+# Projeto - Site para Hamburgueria
+
+## 1. Sobre o projeto
+
+O projeto consiste no desenvolvimento de um site para uma hamburgueria, com o objetivo de apresentar o estabelecimento, seus produtos, preços e informações para os clientes.
+
+## 2. Demanda identificada
+
+A hamburgueria precisa de uma forma simples e organizada de divulgar seus produtos e facilitar o acesso dos clientes ao cardápio e às informações do estabelecimento.
+
+## 3. Solução proposta
+
+Será desenvolvido um site responsivo contendo:
+
+* Página inicial
+* Cardápio
+* Informações sobre a hamburgueria
+* Produtos e preços
+* Formulário de contato
+* Informações de funcionamento
+* Links para contato e redes sociais
+* Interações utilizando JavaScript
+
+## 4. Público-alvo
+
+O site será destinado aos clientes da hamburgueria e às pessoas interessadas em conhecer seus produtos e serviços.
+
+## 5. Tecnologias utilizadas
+
+* HTML5
+* CSS3
+* JavaScript
+* GitHub
+* GitHub Pages
+
+## 6. Estrutura do projeto
+
+```text
+Hamburgueria/
+│
+├── index.html
+├── cardapio.html
+├── style.css
+├── script.js
+│
+└── imagens/
+    ├── logo.png
+    ├── hamburguer1.jpg
+    ├── hamburguer2.jpg
+    ├── hamburguer3.jpg
+    └── batata.jpg
+```
+
+## 7. Planejamento
+
+### Página inicial
+
+A página inicial terá:
+
+* Nome e logo da hamburgueria
+* Menu de navegação
+* Apresentação do estabelecimento
+* Produtos em destaque
+* Horário de funcionamento
+* Informações de contato
+* Formulário
+* Rodapé
+
+### Página de cardápio
+
+A página de cardápio terá:
+
+* Hambúrgueres
+* Combos
+* Acompanhamentos
+* Bebidas
+* Preços
+* Imagens dos produtos
+
+Também será utilizada uma interação em JavaScript para filtrar os produtos por categoria.
+
+## 8. Responsividade
+
+O site será desenvolvido para funcionar em computadores, tablets e celulares, utilizando CSS para adaptar a organização dos elementos às diferentes telas.
+
+## 9. Publicação
+
+Após o desenvolvimento, o projeto será disponibilizado em um repositório público no GitHub e publicado utilizando o GitHub Pages.
+
+## 10. Testes
+
+Antes da entrega serão realizados testes para verificar:
+
+* Funcionamento dos links
+* Carregamento das imagens
+* Funcionamento do CSS
+* Funcionamento do JavaScript
+* Funcionamento do formulário
+* Responsividade em diferentes tamanhos de tela
+* Organização dos arquivos

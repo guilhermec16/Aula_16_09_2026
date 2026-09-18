@@ -22,7 +22,6 @@ alert("Você escolheu: " + produto)
 let formulario = document.querySelector("#formulario")
 
 if (formulario) {
-
 formulario.addEventListener("submit", function(event) {
     event.preventDefault();
 

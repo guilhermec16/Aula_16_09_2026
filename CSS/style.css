@@ -165,6 +165,8 @@ button {
 
 button:hover {
     background-color: #212121;
+    transform: translatey(-2px);
+    transition: 1s;
 }
 
 .menu {
@@ -214,6 +216,11 @@ textarea {
 
 form button {
     margin-top: 10px;
+}
+
+form button:hover{
+    transform: translatey(-2px);
+    transition: 1s;
 }
 
 #mensagemForm {

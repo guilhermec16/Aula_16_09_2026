@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Retrô Diner</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav>
+        <img src="/logo1211.jpg" alt="Logo Retrô Diner" class="logo" style="border-radius: 5px;">
+        <a href="index.html" class="link">Início</a>
+        <a href="cardapio.html" class="link">Cardápio</a>
+        <a href="index.html#sobre" class="link">Sobre</a>
+        <a href="index.html#contato" class="link">Contato</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="menu">
+
+        <h1>Nosso Cardápio</h1>
+        <p>Escolha seu lanche favorito!</p>
+
+        <div class="filtros">
+
+            <button onclick="filtrar('todos')">Todos</button>
+            <button onclick="filtrar('hamburguer')">Hambúrgueres</button>
+            <button onclick="filtrar('combo')">Combos</button>
+            <button onclick="filtrar('acompanhamento')">Acompanhamentos</button>
+
+        </div>
+
+        <div class="Lista">
+
+            <article class="produto hamburguer">
+                <img src="/classic.jpg" alt="Classic Burger">
+                <h2>Classic Burger</h2>
+                <p>Hambúrguer, queijo, alface, tomate e molho especial.</p>
+                <strong>R$ 24,90</strong>
+                <button onclick="pedir('Classic Burger')">Pedir Agora</button>
+            </article>
+
+            <article class="produto hamburguer">
+                <img src="/cheese.jpg" alt="Cheese Burger">
+                <h2>Cheese Burger</h2>
+                <p>Hambúrguer, queijo cheddar e molho especial.</p>
+                <strong>R$ 23,90</strong>
+                <button onclick="pedir('Cheese Burger')">Pedir Agora</button>
+            </article>
+
+            <article class="produto hamburguer">
+                <img src="/bacon.jpg" alt="Bacon Burger">
+                <h2>Bacon Burger</h2>
+                <p>Hambúrguer, queijo, bacon crocante e molho especial.</p>
+                <strong>R$ 27,90</strong>
+                <button onclick="pedir('Bacon Burger')">Pedir Agora</button>
+            </article>
+
+            <article class="produto hamburguer">
+                <img src="/BBQ.jpg" alt="BBQ Burger">
+                <h2>BBQ Burger</h2>
+                <p>Hambúrguer, queijo, cebola e molho barbecue.</p>
+                <strong>R$ 26,90</strong>
+                <button onclick="pedir('BBQ Burger')">Pedir Agora</button>
+            </article>
+
+            <article class="produto hamburguer">
+                <img src="/chicken.jpg" alt="Chicken Burger">
+                <h2>Chicken Burger</h2>
+                <p>Frango empanado, queijo, alface e molho especial.</p>
+                <strong>R$ 25,90</strong>
+                <button onclick="pedir('Chicken Burger')">Pedir Agora</button>
+            </article>
+
+            <article class="produto hamburguer">
+                <img src="/double.jpg" alt="Double Burger">
+                <h2>Double Burger</h2>
+                <p>Dois hambúrgueres, queijo, cebola e molho da casa.</p>
+                <strong>R$ 31,90</strong>
+                <button onclick="pedir('Double Burger')">Pedir Agora</button>
+            </article>
+
+            <article class="produto combo">
+                <img src="/comboC.jpg" alt="Combo Classic">
+                <h2>Combo Classic</h2>
+                <p>Classic Burger, batata frita e refrigerante.</p>
+                <strong>R$ 34,90</strong>
+                <button onclick="pedir('Combo Classic')">Pedir Agora</button>
+            </article>
+
+            <article class="produto combo">
+                <img src="/comboB.jpg" alt="Combo Bacon">
+                <h2>Combo Bacon</h2>
+                <p>Bacon Burger, batata frita e refrigerante.</p>
+                <strong>R$ 37,90</strong>
+                <button onclick="pedir('Combo Bacon')">Pedir Agora</button>
+            </article>
+
+            <article class="produto acompanhamento">
+                <img src="/batata.jpg" alt="Batata Frita">
+                <h2>Batata Frita</h2>
+                <p>Batata frita crocante com molho especial.</p>
+                <strong>R$ 12,90</strong>
+                <button onclick="pedir('Batata Frita')">Pedir Agora</button>
+            </article>
+
+            <article class="produto acompanhamento">
+                <img src="/onion.jpg" alt="Onion Rings">
+                <h2>Onion Rings</h2>
+                <p>Anéis de cebola crocantes e saborosos.</p>
+                <strong>R$ 14,90</strong>
+                <button onclick="pedir('Onion Rings')">Pedir Agora</button>
+            </article>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Retrô Diner</p>
+    <p>Horário: 18h às 23h</p>
+    <p>Instagram | WhatsApp</p>
+    <p>© 2026 Retrô Diner</p>
+</footer>
+
+</body>
+
+</html>

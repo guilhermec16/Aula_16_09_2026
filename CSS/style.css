@@ -1,0 +1,262 @@
+* {
+    font-family: Arial, sans-serif, cursive, Pacifico;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    background-color: #FFFDF6;
+    color: #212121;
+}
+
+header {
+    background-color: #80DEEA;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 100px;
+}
+
+.link {
+    color: #212121;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #C62828;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-color: #80DEEA;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.hero div {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    font-size: 25px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero img {
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #C62828;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #212121;
+    transition: 1s;
+    transform: translateY(-2px);
+}
+
+.sobre {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.sobre p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.destaques {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.Lista {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.hamburguer,
+.produto {
+    background-color: #80DEEA;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hamburguer:hover,
+.produto:hover {
+    transform: translateY(-5px);
+    transition: 1s;
+}
+
+.hamburguer img,
+.produto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.hamburguer p,
+.produto p {
+    line-height: 1.4;
+    
+}
+
+.hamburguer strong,
+.produto strong {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button {
+    background-color: #C62828;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #212121;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu h1 {
+    font-size: 35px;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.contato {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    background-color: #80DEEA;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+#mensagemForm {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+
+    nav {
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hamburguer,
+    .produto {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .filtros button {
+        width: 100%;
+    }
+
+}
